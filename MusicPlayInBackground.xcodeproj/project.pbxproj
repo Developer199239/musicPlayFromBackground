@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D05F79112047CC7300352CB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D05F79102047CC7300352CB4 /* AppDelegate.m */; };
+		D05F79142047CC7300352CB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05F79132047CC7300352CB4 /* ViewController.m */; };
+		D05F79172047CC7300352CB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05F79152047CC7300352CB4 /* Main.storyboard */; };
+		D05F79192047CC7300352CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05F79182047CC7300352CB4 /* Assets.xcassets */; };
+		D05F791C2047CC7300352CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05F791A2047CC7300352CB4 /* LaunchScreen.storyboard */; };
+		D05F791F2047CC7300352CB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D05F791E2047CC7300352CB4 /* main.m */; };
+		D05F79262047CCA600352CB4 /* iphone_ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D05F79252047CCA600352CB4 /* iphone_ring.mp3 */; };
+		D05F79292047CE3D00352CB4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05F79282047CE3D00352CB4 /* AVFoundation.framework */; };
+		D05F792B2047D1E300352CB4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05F792A2047D1E300352CB4 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D05F790C2047CC7300352CB4 /* MusicPlayInBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayInBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05F790F2047CC7300352CB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D05F79102047CC7300352CB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D05F79122047CC7300352CB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D05F79132047CC7300352CB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D05F79162047CC7300352CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D05F79182047CC7300352CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D05F791B2047CC7300352CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D05F791D2047CC7300352CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05F791E2047CC7300352CB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D05F79252047CCA600352CB4 /* iphone_ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iphone_ring.mp3; sourceTree = "<group>"; };
+		D05F79282047CE3D00352CB4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D05F792A2047D1E300352CB4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D05F79092047CC7300352CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05F792B2047D1E300352CB4 /* AudioToolbox.framework in Frameworks */,
+				D05F79292047CE3D00352CB4 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D05F79032047CC7300352CB4 = {
+			isa = PBXGroup;
+			children = (
+				D05F790E2047CC7300352CB4 /* MusicPlayInBackground */,
+				D05F790D2047CC7300352CB4 /* Products */,
+				D05F79272047CE3D00352CB4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D05F790D2047CC7300352CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D05F790C2047CC7300352CB4 /* MusicPlayInBackground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D05F790E2047CC7300352CB4 /* MusicPlayInBackground */ = {
+			isa = PBXGroup;
+			children = (
+				D05F79252047CCA600352CB4 /* iphone_ring.mp3 */,
+				D05F790F2047CC7300352CB4 /* AppDelegate.h */,
+				D05F79102047CC7300352CB4 /* AppDelegate.m */,
+				D05F79122047CC7300352CB4 /* ViewController.h */,
+				D05F79132047CC7300352CB4 /* ViewController.m */,
+				D05F79152047CC7300352CB4 /* Main.storyboard */,
+				D05F79182047CC7300352CB4 /* Assets.xcassets */,
+				D05F791A2047CC7300352CB4 /* LaunchScreen.storyboard */,
+				D05F791D2047CC7300352CB4 /* Info.plist */,
+				D05F791E2047CC7300352CB4 /* main.m */,
+			);
+			path = MusicPlayInBackground;
+			sourceTree = "<group>";
+		};
+		D05F79272047CE3D00352CB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D05F792A2047D1E300352CB4 /* AudioToolbox.framework */,
+				D05F79282047CE3D00352CB4 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D05F790B2047CC7300352CB4 /* MusicPlayInBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05F79222047CC7300352CB4 /* Build configuration list for PBXNativeTarget "MusicPlayInBackground" */;
+			buildPhases = (
+				D05F79082047CC7300352CB4 /* Sources */,
+				D05F79092047CC7300352CB4 /* Frameworks */,
+				D05F790A2047CC7300352CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPlayInBackground;
+			productName = MusicPlayInBackground;
+			productReference = D05F790C2047CC7300352CB4 /* MusicPlayInBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D05F79042047CC7300352CB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Murtuza;
+				TargetAttributes = {
+					D05F790B2047CC7300352CB4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D05F79072047CC7300352CB4 /* Build configuration list for PBXProject "MusicPlayInBackground" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D05F79032047CC7300352CB4;
+			productRefGroup = D05F790D2047CC7300352CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D05F790B2047CC7300352CB4 /* MusicPlayInBackground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D05F790A2047CC7300352CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05F791C2047CC7300352CB4 /* LaunchScreen.storyboard in Resources */,
+				D05F79192047CC7300352CB4 /* Assets.xcassets in Resources */,
+				D05F79172047CC7300352CB4 /* Main.storyboard in Resources */,
+				D05F79262047CCA600352CB4 /* iphone_ring.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D05F79082047CC7300352CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05F79142047CC7300352CB4 /* ViewController.m in Sources */,
+				D05F791F2047CC7300352CB4 /* main.m in Sources */,
+				D05F79112047CC7300352CB4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D05F79152047CC7300352CB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05F79162047CC7300352CB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D05F791A2047CC7300352CB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05F791B2047CC7300352CB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D05F79202047CC7300352CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D05F79212047CC7300352CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D05F79232047CC7300352CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947NL9VTGW;
+				INFOPLIST_FILE = MusicPlayInBackground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.surroundapps.MusicPlayInBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D05F79242047CC7300352CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947NL9VTGW;
+				INFOPLIST_FILE = MusicPlayInBackground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.surroundapps.MusicPlayInBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D05F79072047CC7300352CB4 /* Build configuration list for PBXProject "MusicPlayInBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05F79202047CC7300352CB4 /* Debug */,
+				D05F79212047CC7300352CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05F79222047CC7300352CB4 /* Build configuration list for PBXNativeTarget "MusicPlayInBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05F79232047CC7300352CB4 /* Debug */,
+				D05F79242047CC7300352CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D05F79042047CC7300352CB4 /* Project object */;
+}
